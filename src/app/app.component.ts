@@ -9,7 +9,6 @@ import { EducationComponent } from './components/education/education.component';
 import { Router, NavigationStart, NavigationEnd, NavigationCancel, NavigationError } from '@angular/router';
 
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -33,8 +32,8 @@ export class AppComponent  implements OnInit{
         this.loading = false;
       }
 
-      console.log(this.loading);
     })
+    
   }
 
   
