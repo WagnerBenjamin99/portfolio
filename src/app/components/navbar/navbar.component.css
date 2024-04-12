@@ -1,0 +1,11 @@
+#navbar{
+    background-color: rgba(55, 54, 54, 0.306);
+}
+
+.navbar-brand{
+    font-family: 'sfont';
+    color: #4f772d;
+    font-size: 22px;
+    text-align: center;
+    text-align: justify;
+}

@@ -1,0 +1,135 @@
+
+:host{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-width: 375px;
+}
+.presentation-container{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    background-color: rgba(55, 54, 54, 0.306);
+    box-shadow: 2px 2px 5px black;
+    min-height: 400px;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 1000px;
+}
+.left-container{
+    padding: 50px;
+}
+.left-container h1{
+    padding: 0px;
+    font-size: 50px;
+
+   background: linear-gradient(to right,  var(--primary-color), var(--secondary-color));
+    font-family: 'sfont';
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 500px;
+   
+    
+    
+
+}
+.left-container h3{
+    color: white;
+    font-size: 20px;
+    font-family: 'sfont';
+    margin-left: 3px;
+}
+.btn-contact{
+    margin-top: 30px;
+    width: 130px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 5px;
+    background: linear-gradient(to right,  var(--primary-color), var(--secondary-color));
+    color: white;
+    font-family: 'pfont';
+    
+}
+
+
+.right-container img{
+
+    height: 350px;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        black 68%,
+        rgba(55, 54, 54, 0.306)
+    );
+    border-radius: 50%;
+    object-fit:contain;
+
+}
+
+@media screen and (max-width: 1035px) {
+    .presentation-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      width: 90%; 
+ 
+
+    }
+    
+    .left-container {
+      padding: 20px;
+      text-align: center;
+      width: 50%;
+    }
+    .left-container h1{
+      width: 100%;
+    }
+    
+    .right-container {
+      margin-top: 20px;
+      width: 40%;
+    
+      
+    }
+    
+    .left-container h1 {
+      font-size: 40px; /* Puedes ajustar este valor según tus necesidades */
+      width: auto;
+    }
+    
+    .right-container img {
+      height: 300px;
+      border-radius: 50%;
+    }
+  }
+  
+
+  @media screen and (max-width: 982px){
+    .presentation-container{
+      flex-direction: column-reverse;
+    }
+    .left-container, .right-container{
+      width: 100%;
+    }
+    .right-container{
+      display: flex;
+      justify-content: center;
+    }
+    
+  }
+
+@media screen and (max-width: 505px){
+  .left-container h1{
+    font-size: 30px;
+  } 
+  .right-container img {
+   width: 330px;
+    border-radius: 0;
+    height: 300px;
+    border-radius: 50%;
+  }
+}

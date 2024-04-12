@@ -1,0 +1,40 @@
+:host{
+    display: flex;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+
+}
+
+.btn-contact{
+    margin-top: 30px;
+    width: 130px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 5px;
+    background: linear-gradient(to right,  #4f772d,#31572c);
+    color: white;
+    font-family: 'pfont';
+    
+}
+
+.icons-ref{
+    align-self: start;
+    font-size: 12px;
+    font-style: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 3px;
+}

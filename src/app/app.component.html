@@ -1,0 +1,19 @@
+<div id="container" style="width: 100%;">
+  <header>
+    <app-navbar></app-navbar>
+  </header>
+  
+  <app-presentation></app-presentation>
+  <app-aboutme></app-aboutme>
+  <app-education></app-education>
+  <app-technologies></app-technologies>
+  <app-footer></app-footer>
+  <app-up-arrow></app-up-arrow>
+
+  @if (loading) {
+    <div  class="spinner-overlay">
+      <div class="spinner"></div>
+    </div>
+  }
+  
+</div>
