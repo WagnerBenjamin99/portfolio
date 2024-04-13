@@ -47,11 +47,22 @@
     justify-content: center;
     align-items: center;
 }
+.education-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.education-item img{
+    max-width: 100%;
+}
 
 .education-item{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: start;
+    width: 260px;
+    margin: 10px;
     
 }
 .education-item p{
@@ -60,12 +71,10 @@
     margin-left: 5px;
     font-family: 'pfont';
 }
-.cont-sup{
-    margin-right: 5px;
-}
-.cont-inf{
-    display: flex;
-    flex-direction: column;
+
+
+.img-fix{
+    margin-top: 2px;
 }
 
 @media screen and (max-width: 1035px) {
